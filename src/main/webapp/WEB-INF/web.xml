@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-  <display-name>kaka</display-name>
+  <display-name>myWorkSpace</display-name>
   <description>kaka_Alpha_0.0.1</description>
 
   <!-- 编码过滤器 -->

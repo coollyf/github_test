@@ -1,11 +1,17 @@
-package com.myProject.dao;
+package com.myProject.controller;
 
 import com.myProject.dao.AuthUser;
 import com.myProject.dao.AuthUserExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
-public interface AuthUserMapper {
+import java.util.List;
+
+/**
+ * Created by acer on 2018/4/2.
+ */
+@Repository
+public interface UserDao {
     int countByExample(AuthUserExample example);
 
     int deleteByExample(AuthUserExample example);
