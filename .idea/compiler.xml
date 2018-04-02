@@ -6,16 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myWorkSpace" />
         <module name="webmobile" />
         <module name="webpc" />
         <module name="webservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="myWorkSpace" target="1.5" />
-      <module name="webmobile" target="1.5" />
-      <module name="webpc" target="1.5" />
-      <module name="webservice" target="1.5" />
+      <module name="myWorkSpace" target="1.8" />
+      <module name="webmobile" target="1.8" />
+      <module name="webpc" target="1.8" />
+      <module name="webservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
